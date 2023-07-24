@@ -9,9 +9,12 @@ import { MdOutlineInsertPhoto, MdOutlineGifBox, MdOutlinePoll, MdOutlineSchedule
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { AiOutlineRetweet, AiOutlineHeart } from 'react-icons/ai';
 //left nav
-export { BiLogoTwitter, BiHomeCircle, BiSearch, BiBell, BiEnvelope, RiFileListLine, PiBookmarkSimpleBold, BsPeople, BsPerson, LuVerified, CgMoreO, IoIosMore };
+export { BiLogoTwitter, BiHomeCircle, BiSearch, BiBell, BiEnvelope, RiFileListLine, PiBookmarkSimpleBold, BsPeople, BsPerson, LuVerified, CgMoreO };
 // middle nav
 export { MdOutlineInsertPhoto, MdOutlineGifBox, BsEmojiSmile, MdOutlinePoll, MdOutlineScheduleSend, HiOutlineLocationMarker };
 
 //tweet comment icons
 export { BiMessageRounded, AiOutlineRetweet, AiOutlineHeart, BiBookmark };
+
+//what's happening icon
+export { IoIosMore };
