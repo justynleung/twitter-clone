@@ -5,11 +5,11 @@ import RightNav from './components/right-nav';
 export default function App() {
   return (
     <div className="flex min-h-screen justify-center">
-      <div className="flex flex-row min-h-screen w-3/5">
-        <LeftNav />
+      <LeftNav />
+      <main className='flex justify-start'>
         <TweetFeed />
         <RightNav />
-      </div >
+      </main>
     </div >
   )
 }

@@ -2,10 +2,10 @@ import { BiSearch, IoIosMore } from '@/asset/icons';
 
 export default function RightNav() {
     return (
-        <section className="flex flex-col w-[30%]">
-            <div className="flex flex-row items-center w-full h-8 p-4 my-2 bg-gray-600 bg-opacity-50 rounded-full">
-                <BiSearch className="text-zinc-500" />
-                <input className="bg-transparent placeholder-zinc-500" placeholder="Search Twitter"></input>
+        <section className="flex flex-col w-[30%] mx-4">
+            <div className="relative flex flex-row items-center my-2">
+                <div className="absolute pl-8 text-lg text-zinc-500" ><BiSearch /></div>
+                <input className="w-full h-8 px-16 py-6 bg-transparent placeholder-zinc-500 bg-gray-700 bg-opacity-30 rounded-full border border-transparent focus-visible:outline-none focus:border focus:border-primary" placeholder="Search Twitter"></input>
             </div>
             <div className="flex flex-col w-full h-min my-2 p-2.5 bg-gray-800 rounded-xl">
                 <h3 className="text-xl font-bold">What's Happening</h3>
@@ -31,6 +31,6 @@ export default function RightNav() {
                     <button>Follow</button>
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
