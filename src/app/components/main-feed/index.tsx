@@ -35,7 +35,7 @@ export default function TweetFeed() {
             <div className='flex flex-row h-32 py-2.5 border-primary-gray border-b'>
                 <div className='w-[10%] h-full'><div className="bg-white h-10 w-10 rounded-full mx-2"></div></div>
                 <div className='flex flex-col w-[90%] h-full mr-4'>
-                    <div className='flex-grow text-xl'><input className="bg-transparent h-10 justify-self-center" placeholder="What's happening?!"></input></div>
+                    <div className='flex-grow text-xl'><input className="bg-transparent h-10 justify-self-center placeholder-zinc-500" placeholder="What's happening?!"></input></div>
                     <div className='flex justify-between grow-0'>
                         <div className='flex flex-row'>
                             {tweetFunction.map(item => (
@@ -54,10 +54,10 @@ export default function TweetFeed() {
                     <div className="flex flex-row self-end justify-between h-fit w-full text-sm">
                         <div className='flex flex-row'>
                             <div className='text-base font-bold'>Name</div>
-                            <div className='px-2 text-zinc-600'>@Handle</div>
-                            <div className='px-2 text-zinc-600'>time</div>
+                            <div className='px-2 text-zinc-500'>@Handle</div>
+                            <div className='px-2 text-zinc-500'>time</div>
                         </div>
-                        <button className='text-lg text-zinc-600'>
+                        <button className='text-lg text-zinc-500'>
                             <IoIosMore />
                         </button>
                     </div>
