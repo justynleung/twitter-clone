@@ -4,7 +4,7 @@ import RightNav from '../components/right-nav';
 
 export default function App() {
   return (
-    <div className="flex min-h-screen justify-center">
+    <div className="flex min-h-screen w-[1294px] mx-auto">
       <LeftNav />
       <main className='flex justify-start'>
         <TweetFeed />
