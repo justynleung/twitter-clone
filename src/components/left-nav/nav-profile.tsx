@@ -1,4 +1,4 @@
-import { IoIosMore } from '@/asset/icons';
+import { IoIosMore } from '../../asset/icons';
 
 export default function NavProfile() {
     return (

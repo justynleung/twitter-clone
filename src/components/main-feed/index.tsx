@@ -1,6 +1,6 @@
-import { MdOutlineInsertPhoto, MdOutlineGifBox, BsEmojiSmile, MdOutlinePoll, MdOutlineScheduleSend, HiOutlineLocationMarker } from '@/asset/icons';
-import { IoIosMore } from '@/asset/icons';
-import { BiMessageRounded, AiOutlineRetweet, AiOutlineHeart, BiBookmark } from '@/asset/icons';
+import { MdOutlineInsertPhoto, MdOutlineGifBox, BsEmojiSmile, MdOutlinePoll, MdOutlineScheduleSend, HiOutlineLocationMarker } from '../../asset/icons';
+import { IoIosMore } from '../../asset/icons';
+import { BiMessageRounded, AiOutlineRetweet, AiOutlineHeart, BiBookmark } from '../../asset/icons';
 import Link from "next/link";
 
 const tweetFunction = [

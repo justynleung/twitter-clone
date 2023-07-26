@@ -1,6 +1,6 @@
-import LeftNav from '@/components/left-nav/index';
-import TweetFeed from './components/main-feed';
-import RightNav from './components/right-nav';
+import LeftNav from '../components/left-nav/index';
+import TweetFeed from '../components/main-feed';
+import RightNav from '../components/right-nav';
 
 export default function App() {
   return (

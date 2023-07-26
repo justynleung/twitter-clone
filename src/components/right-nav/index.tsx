@@ -1,4 +1,4 @@
-import { BiSearch, IoIosMore } from '@/asset/icons';
+import { BiSearch, IoIosMore } from '../../asset/icons';
 
 export default function RightNav() {
     return (
