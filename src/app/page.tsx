@@ -4,11 +4,13 @@ import RightNav from '&/components/right-nav';
 
 export default function App() {
   return (
-    <main className="flex min-h-screen w-[1294px] mx-auto">
-      <LeftNav />
-      <div className='flex justify-start'>
-        <TweetFeed />
-        <RightNav />
+    <main className="min-h-screen w-100vw">
+      <div className="flex min-h-screen w-[1294px] mx-auto">
+        <LeftNav />
+        <div className='flex justify-start'>
+          <TweetFeed />
+          <RightNav />
+        </div>
       </div>
     </main >
   )

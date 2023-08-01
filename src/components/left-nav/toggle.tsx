@@ -2,7 +2,7 @@
 
 import { BsMoon, BsSun } from '&/asset/icons';
 import { setIsDark } from '&/redux/features/dark-mode';
-import { useAppSelector, useAppDispatch } from '&/redux/hook';
+import { useAppSelector, useAppDispatch } from '&/redux/hooks';
 
 export default function Toggle() {
     const isDark = useAppSelector((state) => state.darkMode.isDark);
