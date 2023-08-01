@@ -8,7 +8,7 @@ export default function RightNav() {
                 <input className="w-full h-8 px-16 py-6 bg-transparent placeholder-zinc-500 bg-gray-700 bg-opacity-30 rounded-full border border-transparent focus-visible:outline-none focus:border focus:border-primary" placeholder="Search Twitter"></input>
             </div>
             <div className="flex flex-col w-full h-min my-2 p-2.5 bg-gray-800 rounded-xl">
-                <h3 className="text-xl font-bold">What's Happening</h3>
+                <h3 className="text-xl font-bold">What is Happening</h3>
                 <div className="flex flex-row justify-between py-4">
                     <div className="flex flex-col">
                         <div className="text-zinc-500">trending</div>
