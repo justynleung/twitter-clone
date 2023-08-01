@@ -1,12 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { useSelector, TypedUseSelectorHook } from 'react-redux';
-import authReducer from './features/auth-slice';
+import darkMode from './features/dark-mode';
 
 export const store = configureStore({
     reducer: {
-        authReducer,
+        darkMode
     }
 })
 
 export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch
+

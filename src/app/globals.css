@@ -8,7 +8,50 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+.dark {
+  --color-bg: #000;
+  --color-text: #FFFFFF;
+  --color-white: #FFFFFF;
+  --color-black: #000;
+  --color-grey0: #f8f8f8;
+  --color-grey-1: #dbe1e8;
+  --color-grey-2: #b2becd;
+  --color-grey-3: #6c7983;
+  --color-grey-4: #454e56;
+  --color-grey-5: #2a2e35;
+  --color-grey-6: #12181b;
+  --br-sm-2: 14px;
+  --box-shadow-1: 0 3px 15px rgba(0, 0, 0, .3);
+}
+
+.light {
+  --color-bg: #FFFFFF;
+  --color-text: #000;
+  --color-white: #344460;
+  --color-black: #000;
+  --color-grey0: #f8f8f8;
+  --color-grey-1: #6c7983;
+  --color-grey-2: #6c7983;
+  --color-grey-3: #6c7983;
+  --color-grey-4: #454e56;
+  --color-grey-5: #f8f8f8;
+  --color-grey-6: #12181b;
+}
+
+main {
+  color: var(--color-text);
+}
+
+
+
+
+
+
+
+
+
+
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -24,4 +67,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */

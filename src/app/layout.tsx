@@ -1,4 +1,5 @@
-import { ReduxProvider } from '&/redux/provider'
+import { ReduxProviders } from '&/redux/provider'
+import { ThemeProviders } from '&/components/theme-provider/theme-provider'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -18,7 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ReduxProvider>{children}</ReduxProvider>
+        <ReduxProviders>
+          <ThemeProviders>{children}</ThemeProviders>
+        </ReduxProviders>
       </body>
     </html>
   )
