@@ -1,7 +1,7 @@
 import { BiLogoTwitter, BiHomeCircle, BiSearch, BiBell, BiEnvelope, BiMessageRounded, BiBookmark } from 'react-icons/bi';
 import { RiFileListLine } from 'react-icons/ri';
 import { PiBookmarkSimpleBold } from 'react-icons/pi';
-import { BsPeople, BsPerson, BsEmojiSmile } from 'react-icons/bs';
+import { BsPeople, BsPerson, BsEmojiSmile, BsMoon, BsSun } from 'react-icons/bs';
 import { LuVerified } from 'react-icons/lu';
 import { CgMoreO } from 'react-icons/cg';
 import { IoIosMore } from 'react-icons/io';
@@ -18,3 +18,6 @@ export { BiMessageRounded, AiOutlineRetweet, AiOutlineHeart, BiBookmark };
 
 //what's happening icon
 export { IoIosMore };
+
+//light / dark mode icon
+export { BsMoon, BsSun };
