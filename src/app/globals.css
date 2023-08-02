@@ -49,9 +49,23 @@ main {
   background-color: var(--color-bg);
 }
 
+@media (max-width: 1294px) {
+  .left-nav {
+    width: fit-content;
+  }
+}
 
+@media (max-width:1104px) {
+  .right-nav-wrapper {
+    width: 290px;
+  }
+}
 
-
+@media (min-width: 1294px) {
+  .main-sub-wrapper {
+    width: 1294px;
+  }
+}
 
 /* @media (prefers-color-scheme: dark) {
   main {

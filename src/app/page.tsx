@@ -1,11 +1,11 @@
 import LeftNav from '&/components/left-nav/index';
 import TweetFeed from '&/components/main-feed';
-import RightNav from '&/components/right-nav';
+import RightNav from '&/components/right-nav/index';
 
 export default function App() {
   return (
-    <main className="min-h-screen w-100vw">
-      <div className="flex min-h-screen w-[1294px] mx-auto">
+    <main className="main-wrapper min-h-screen w-100vw">
+      <div className="main-sub-wrapper flex justify-center min-h-screen w-min mx-auto">
         <LeftNav />
         <div className='flex justify-start'>
           <TweetFeed />

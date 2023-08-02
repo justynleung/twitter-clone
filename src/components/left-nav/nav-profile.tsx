@@ -1,14 +1,10 @@
 'use client'
 import { IoIosMore } from '&/asset/icons';
 import { useMediaQuery } from 'react-responsive';
-
-export const DeviceSize = {
-    lg: 1024,
-    xl: 1294,
-};
+import { lg, xl } from '&/asset/deviceSize';
 
 export default function NavProfile() {
-    const isXL = useMediaQuery({ maxWidth: DeviceSize.xl })
+    const isXL = useMediaQuery({ maxWidth: xl })
     return (
         <div className="flex flex-row justify-between w-full mb-6">
             <div className="flex flex-row">

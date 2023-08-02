@@ -1,6 +1,6 @@
 import { BiLogoTwitter, BiHomeCircle, BiSearch, BiBell, BiEnvelope, BiMessageRounded, BiBookmark } from 'react-icons/bi';
 import { RiFileListLine } from 'react-icons/ri';
-import { PiBookmarkSimpleBold } from 'react-icons/pi';
+import { PiBookmarkSimpleBold, PiFeather } from 'react-icons/pi';
 import { BsPeople, BsPerson, BsEmojiSmile, BsMoon, BsSun } from 'react-icons/bs';
 import { LuVerified } from 'react-icons/lu';
 import { CgMoreO } from 'react-icons/cg';
@@ -9,7 +9,7 @@ import { MdOutlineInsertPhoto, MdOutlineGifBox, MdOutlinePoll, MdOutlineSchedule
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { AiOutlineRetweet, AiOutlineHeart } from 'react-icons/ai';
 //left nav
-export { BiLogoTwitter, BiHomeCircle, BiSearch, BiBell, BiEnvelope, RiFileListLine, PiBookmarkSimpleBold, BsPeople, BsPerson, LuVerified, CgMoreO };
+export { BiLogoTwitter, BiHomeCircle, BiSearch, BiBell, BiEnvelope, RiFileListLine, PiBookmarkSimpleBold, BsPeople, BsPerson, LuVerified, CgMoreO, PiFeather };
 // middle nav
 export { MdOutlineInsertPhoto, MdOutlineGifBox, BsEmojiSmile, MdOutlinePoll, MdOutlineScheduleSend, HiOutlineLocationMarker };
 

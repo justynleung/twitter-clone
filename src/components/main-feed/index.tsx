@@ -20,8 +20,8 @@ const tweetReply = [
 ]
 export default function TweetFeed() {
     return (
-        <section className="h-full w-[67%] max-w-[600px] border-[--color-border] border-l border-r">
-            <div className="sticky top-0 bg-[--color-bg]">
+        <section className="h-full w-[67%] min-w-[600px] border-[--color-border] border-l border-r">
+            <div className="sticky top-0 bg-[--color-bg] opacity-90">
                 <Link href="/home" className="block h-16 w-full text-xl font-bold p-3.5">Home</Link>
                 <Link href="/home" className="flex flex-row items-end justify-around h-12 w-full text-[0.915rem] font-bold border-[--color-border] border-b">
                     <div>
