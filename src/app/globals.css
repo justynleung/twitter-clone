@@ -44,12 +44,22 @@
   --color-gray-6: #12181b;
 }
 
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+}
+
 main {
   color: var(--color-text);
   background-color: var(--color-bg);
 }
 
-@media (max-width: 1294px) {
+@media (max-width: 1293px) {
 
   .left-nav-menu-text,
   .left-nav-profile-addon,
