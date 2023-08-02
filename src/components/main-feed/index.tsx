@@ -20,19 +20,19 @@ const tweetReply = [
 ]
 export default function TweetFeed() {
     return (
-        <section className="h-full w-[67%] mx-4 border-primary-gray border-l border-r">
+        <section className="h-full w-[67%] mx-4 border-[--color-border] border-l border-r">
             <Link href="/home" className="block h-16 text-xl font-bold p-3.5">Home</Link>
-            <Link href="/home" className="flex flex-row items-end justify-around h-12 text-[0.915rem] font-bold border-primary-gray border-b">
+            <Link href="/home" className="flex flex-row items-end justify-around h-12 text-[0.915rem] font-bold border-[--color-border] border-b">
                 <div>
                     <span className="px-0.5">For you</span>
-                    <div className="h-1 w-full bg-primary mt-1.5 rounded-full"></div>
+                    <div className="h-1 w-full bg-[--color-iconic] mt-1.5 rounded-full"></div>
                 </div>
                 <div>
                     <span className="px-0.5">Following</span>
-                    <div className="h-1 w-full bg-primary mt-1.5 rounded-full"></div>
+                    <div className="h-1 w-full bg-[--color-iconic] mt-1.5 rounded-full"></div>
                 </div>
             </Link>
-            <div className='flex flex-row h-32 py-2.5 border-primary-gray border-b'>
+            <div className='flex flex-row h-32 py-2.5 border-[--color-border] border-b'>
                 <div className='w-[10%] h-full'><div className="bg-white h-10 w-10 rounded-full mx-2"></div></div>
                 <div className='flex flex-col w-[90%] h-full mr-4'>
                     <div className='flex-grow text-xl'><input className="bg-transparent h-10 placeholder-zinc-500 focus:outline-none" placeholder="What's happening?!"></input></div>
@@ -42,7 +42,7 @@ export default function TweetFeed() {
                                 <item.icon key={index} className='text-xl mr-4 self-center text-primary' />
                             ))}
                         </div>
-                        <button className='text-sm font-bold w-20 bg-primary px-2 py-2 rounded-full'>Tweet</button>
+                        <button className='text-sm font-bold w-20 bg-[--color-iconic] px-2 py-2 rounded-full'>Tweet</button>
                     </div>
                 </div>
             </div>

@@ -12,6 +12,8 @@
   --color-bg: #000;
   --color-bg-2: #12181b;
   --color-text: #FFFFFF;
+  --color-border: #2f3336;
+  --color-iconic: #1d9cf0;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-gray-0: #f8f8f8;
@@ -29,6 +31,8 @@
   --color-bg: #FFFFFF;
   --color-bg-2: #f8f8f8;
   --color-text: #000;
+  --color-border: #eff3f4;
+  --color-iconic: #1d9cf0;
   --color-white: #344460;
   --color-black: #000;
   --color-gray-0: #f8f8f8;

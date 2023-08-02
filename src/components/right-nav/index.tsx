@@ -5,7 +5,7 @@ export default function RightNav() {
         <section className="flex flex-col w-[30%] mx-4">
             <div className="relative flex flex-row items-center my-2">
                 <div className="absolute pl-8 text-lg text-zinc-500" ><BiSearch /></div>
-                <input className="w-full h-8 px-16 py-6 bg-transparent placeholder-zinc-500 bg-gray-700 bg-opacity-30 rounded-full border border-transparent focus-visible:outline-none focus:border focus:border-primary" placeholder="Search Twitter"></input>
+                <input className="w-full h-8 px-16 py-6 bg-transparent placeholder-zinc-500 bg-[--color-bg-2] bg-opacity-30 rounded-full border border-transparent focus-visible:outline-none focus:border focus:border-primary" placeholder="Search Twitter"></input>
             </div>
             <div className="flex flex-col w-full h-min my-2 p-2.5 bg-[var(--color-bg-2)] rounded-xl">
                 <h3 className="text-xl font-bold">What is Happening</h3>

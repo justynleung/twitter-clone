@@ -26,7 +26,7 @@ export default function NavLinks() {
                     </div>
                 </Link>
             ))}
-            <button className="text-lg w-11/12 bg-primary rounded-full py-3 hover:bg-opacity-80">Tweet</button>
+            <button className="text-lg w-11/12 bg-[--color-iconic] rounded-full py-3 hover:bg-opacity-80">Tweet</button>
             <Toggle />
         </div>
     )
