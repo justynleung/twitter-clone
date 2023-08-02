@@ -19,8 +19,12 @@ const navMenu = [
     // { title: 'More', icon: CgMoreO }
 ]
 
+const buttonClass = `text-lg bg-[--color-iconic] text-white rounded-full hover:bg-opacity-80
+    text-lg bg-[--color-iconic] text-white rounded-full hover:bg-opacity-80`
+
 export default function LeftNav() {
     const isXL = useMediaQuery({ maxWidth: xl })
+
     return (
         <div className="flex flex-col w-full">
             {navMenu.map(item => (
@@ -32,9 +36,9 @@ export default function LeftNav() {
                 </Link>
             ))}
             {!isXL
-                ? <button className="text-lg w-11/12 bg-[--color-iconic] text-white rounded-full py-3 hover:bg-opacity-80">Tweet</button>
-                : <button className="text-lg w-min bg-[--color-iconic] text-white rounded-full py-3 hover:bg-opacity-80"><PiFeather /></button>}
-            <Toggle />
+                ? <button className={`w-11/12 py-3 ${buttonClass}`}>Tweet</button>
+                : <button className={`w-min p-4 ml-[-0.2rem] ${buttonClass}`}><PiFeather /></button>}
+            <div className='ml-3.5'><Toggle /></div>
         </div>
     )
 }

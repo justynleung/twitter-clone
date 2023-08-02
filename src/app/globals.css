@@ -49,9 +49,9 @@ main {
   background-color: var(--color-bg);
 }
 
-@media (max-width: 1294px) {
+@media (min-width: 1294px) {
   .left-nav {
-    width: fit-content;
+    min-width: 275px;
   }
 }
 
