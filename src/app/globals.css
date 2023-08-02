@@ -49,6 +49,26 @@ main {
   background-color: var(--color-bg);
 }
 
+@media (max-width: 1294px) {
+
+  .left-nav-menu-text,
+  .left-nav-profile-addon,
+  .left-nav-tweet-btn {
+    display: none;
+  }
+
+  .left-nav-tweet-btn-sm {
+    display: block;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .right-nav-wrapper {
+    display: none;
+  }
+}
+
 @media (min-width: 1294px) {
   .left-nav {
     min-width: 275px;
