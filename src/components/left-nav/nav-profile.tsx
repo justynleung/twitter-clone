@@ -1,18 +1,22 @@
+'use client'
 import { IoIosMore } from '&/asset/icons';
+import { useMediaQuery } from 'react-responsive';
+
+export const DeviceSize = {
+    lg: 1024,
+    xl: 1294,
+};
 
 export default function NavProfile() {
+    const isXL = useMediaQuery({ maxWidth: DeviceSize.xl })
     return (
         <div className="flex flex-row justify-between w-full mb-6">
             <div className="flex flex-row">
-                <div className="bg-white h-10 w-10 rounded-full mx-2"></div>
-                <div className="flex-col text-sm">
-                    <div>Name</div>
-                    <div>@Handle</div>
-                </div>
+                <div className="bg-red-400 h-10 w-10 rounded-full mx-2"></div>
+                {!isXL &&
+                    <div className="flex-col text-sm"><div>Name</div><div>@Handle</div></div>}
             </div>
-            <button>
-                <IoIosMore />
-            </button>
+            {!isXL && <button><IoIosMore /></button>}
         </div >
     )
 }
