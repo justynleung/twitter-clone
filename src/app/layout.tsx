@@ -22,9 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ReduxProviders>
           <ThemeProviders>
-            <AuthContext session={session}>
-              {children}
-            </AuthContext>
+            {children}
           </ThemeProviders>
         </ReduxProviders>
       </body>
