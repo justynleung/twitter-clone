@@ -1,5 +1,6 @@
-import { ReduxProviders } from '&/redux/provider'
-import { ThemeProviders } from '&/components/theme-provider/theme-provider'
+import ReduxProviders from '&/redux/provider'
+import ThemeProviders from '&/context/ThemeProvider'
+import AuthContext from '&/context/AuthContext';
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -20,7 +21,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ReduxProviders>
-          <ThemeProviders>{children}</ThemeProviders>
+          <ThemeProviders>
+            <AuthContext session={session}>
+              {children}
+            </AuthContext>
+          </ThemeProviders>
         </ReduxProviders>
       </body>
     </html>
