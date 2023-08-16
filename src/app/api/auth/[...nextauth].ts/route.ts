@@ -1,6 +1,6 @@
 import NextAuth from "next-auth"
 import TwitterProvider from "next-auth/providers/twitter"
-import GoogleProvider from "next-auth/providers/google"
+import GoogleProvider from "next-auth/providers/google";
 
 export const authOptions = {
     // Configure one or more authentication providers
