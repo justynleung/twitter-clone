@@ -1,18 +1,29 @@
+'use client'
 import LeftNav from '&/components/left-nav/index';
 import TweetFeed from '&/components/main-feed';
 import RightNav from '&/components/right-nav/index';
-
+import { signIn, signOut, useSession } from "next-auth/react"
 export default function App() {
+  const { data: session, status } = useSession()
+  const loading = status === 'loading'
+
   return (
-    <main className="main-wrapper min-h-screen w-100vw">
-      <div className="main-sub-wrapper flex justify-center min-h-screen w-min mx-auto">
-        <LeftNav />
-        <div className='flex justify-start'>
-          <TweetFeed />
-          <RightNav />
-        </div>
-      </div>
-    </main >
+    <>
+      {!session && (
+        <>
+          <p>landing page</p>
+          <a
+            href={`/auth/signin`}
+            onClick={(e) => {
+              e.preventDefault()
+              signIn()
+            }}
+          >
+            Sign in
+          </a>
+        </>
+      )}
+    </>
   )
 }
 

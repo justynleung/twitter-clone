@@ -11,6 +11,14 @@ export const authOptions = {
         }),
         // ...add more providers here
     ],
+    pages: {
+        signIn: '/auth/signin',
+        signOut: '/auth/signout',
+        error: '/auth/error',
+        verifyRequest: '/auth/verify-request',
+        newUser: '/auth/new-user'
+    }
 }
 
-export default NextAuth(authOptions)
+const handler = NextAuth(authOptions)
+export { handler as GET, handler as POST };
