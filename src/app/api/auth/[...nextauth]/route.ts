@@ -10,14 +10,7 @@ export const authOptions = {
             clientSecret: process.env.TWITTER_SECRET!,
         }),
         // ...add more providers here
-    ],
-    pages: {
-        signIn: '/auth/signin',
-        signOut: '/auth/signout',
-        error: '/auth/error',
-        verifyRequest: '/auth/verify-request',
-        newUser: '/auth/new-user'
-    }
+    ]
 }
 
 const handler = NextAuth(authOptions)
